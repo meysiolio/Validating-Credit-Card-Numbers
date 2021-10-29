@@ -9,15 +9,15 @@ A valid credit card from **ABCD Bank** has the following characteristics:
 ► It must NOT use any other separator like ' ' , '_', etc.  
 ► It must NOT have **4** or more consecutive repeated digits.  
 
-### Examples:
+#### Examples:
 
-#### Valid Credit Card Number
+##### Valid Credit Card Number
 ```
 4253625879615786
 4424424424442444
 5122-2368-7954-3214
 ```
-#### Invalid Credit Card Numbers
+##### Invalid Credit Card Numbers
 ```
 42536258796157867       #17 digits in card number → Invalid 
 4424444424442444        #Consecutive digits are repeating 4 or more times → Invalid
@@ -60,4 +60,4 @@ Invalid
 61234-**567**-8912-3456 : **Invalid**, because the card number is not divided into equal groups of **4**.  
 4123356789123456 : **Valid**  
 51**33-33**67-8912-3456 : **Invalid**, consecutive digits  is repeating  times.  
-5123 -- 4567 -- 8912 -- 3456 : **Invalid**, because space '  ' and - are used as separators.  
+5123 — 4567 — 8912 — 3456 : **Invalid**, because space '  ' and - are used as separators.  
